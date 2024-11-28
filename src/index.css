@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #fff5eb;
+}
+
+/* Ensure full height for the layout */
+/* Ensure full height for the layout */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Wrapper for the app layout */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  /* Main content grows to fill space */
+  .app-content {
+    flex: 1; /* Ensures it takes up remaining space */
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
